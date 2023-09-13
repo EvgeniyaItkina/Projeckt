@@ -33,33 +33,29 @@ img {
 
 .lableTitle {
     position: absolute;
-    top: 45%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
     font-size: 5em;
-    /* opacity: 0;
-    transform: scale(0);
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out; */
-    /* opacity: 0; */
-    transform: rotate(0deg);
-    transition: transform 1s;
-    /*     animation: fadeInAndGrow 2s ease-in-out forwards; */
+    opacity: 1;
+    /* transform: scale(0); */
+    transition: transform 1s ease-in-out, opacity 5s ease-in-out;
+    animation: fadeInAndGrow 5s ease-in-out forwards;
 }
 
-.lableTitle:first-child {
-    transform: rotate(360deg);
-}
-
-/* @keyframes fadeInAndGrow {
+@keyframes fadeInAndGrow {
     0% {
         font-size: 20px;
-        opacity: 0;
+        opacity: 1;
     }
 
     100% {
-        font-size: 40px;
-        opacity: 1;
+        font-size: 200px;
+        opacity: 0;
+        display: none;
     }
-} */
+}
 
 .type-surgery-1 {
     grid-area: type1;
@@ -125,10 +121,11 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     background: linear-gradient(#000, #ccc, #e28c8c, #e28c8c, #ff0000, #e28c8c, #e28c8c, #ccc, #000);
+    border-radius: 20px;
     color: #4b3e3e;
     /* Применяет градиент к тексту */
     position: relative;
-    animation: blink 2s ease infinite alternate;
+    animation: blink 1s ease infinite alternate;
 }
 
 @keyframes blink {
