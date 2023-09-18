@@ -82,14 +82,12 @@ div h2 {
     display: grid;
     color: #5e2b22;
     font-size: 1em;
-    /* border: 1px solid #000; */
     justify-items: center;
 }
 
 .input {
     background: #F6F6F624;
     border: 2px solid #5e2b22;
-    font-size: 1em;
     margin-right: 20px;
     font-size: 1.2em;
     margin-bottom: 5px;
@@ -139,7 +137,7 @@ div h2 {
 
     .card ul {
         display: flex;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     .card:not(:first-child) {
@@ -180,7 +178,7 @@ div h2 {
 
     .card ul {
         display: flex;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     .card:not(:first-child) {

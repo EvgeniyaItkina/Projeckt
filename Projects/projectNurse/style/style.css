@@ -271,14 +271,15 @@ img {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px),
+screen and (max-width:576px) {
     .container {
         display: block;
         height: 100%;
     }
 
     .type-surgery-1 ul li {
-        margin-bottom: 70px;
+        margin-bottom: 90px;
     }
 
     .type-surgery-1 ul li span {
@@ -286,8 +287,8 @@ img {
         top: 30px;
         left: 0%;
         white-space: wrap;
-        width: 500px;
-
+        width: 60vw;
+        white-space: wrap;
     }
 
     .one,
@@ -297,6 +298,13 @@ img {
         font-weight: normal;
         margin: 0;
     }
-}
 
-@media screen and (max-width:576px) {}
+    .type-surgery-3 {
+        flex-direction: column;
+    }
+
+    .lableTitle {
+        animation: none;
+        display: none;
+    }
+}
