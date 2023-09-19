@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+.watsup {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    z-index: 2;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.watsup img {
+    width: 50px;
+}
+
 .my-style-header {
     background-color: #0EE1E1;
     padding-top: 100px;
@@ -27,6 +42,11 @@
     background-color: #F8F8F8;
     text-align: center;
     align-items: center;
+}
+
+.card-group>.card {
+    flex: 1 0 0%;
+    margin-bottom: 10px;
 }
 
 .card-img-top {
@@ -143,8 +163,14 @@
     display: block;
 }
 
+
+
 @media screen and (max-width:768px),
 screen and (max-width:576px) {
+    .watsup {
+        display: none;
+    }
+
     .my-style-header {
         width: 100%;
     }
@@ -162,4 +188,10 @@ screen and (max-width:576px) {
     .map {
         width: auto;
     }
+
+    .card-group>.card+.card {
+        margin-left: 10px;
+        border-left: 0;
+    }
+
 }

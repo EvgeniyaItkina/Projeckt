@@ -205,18 +205,6 @@ img {
     }
 }
 
-.pic1 {
-    grid-area: pic1;
-}
-
-.pic2 {
-    grid-area: pic2;
-}
-
-.pic3 {
-    grid-area: pic3;
-}
-
 .form {
     grid-area: form;
     border: 3px groove #000;
@@ -289,6 +277,7 @@ screen and (max-width:576px) {
         white-space: wrap;
         width: 60vw;
         white-space: wrap;
+        font-size: 0.8em;
     }
 
     .one,

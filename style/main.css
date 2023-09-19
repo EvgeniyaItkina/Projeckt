@@ -8,6 +8,7 @@
     position: fixed;
     bottom: 20px;
     right: 50px;
+    z-index: 2;
 }
 
 #scroll-to-top img {
@@ -24,7 +25,6 @@ nav {
     position: fixed;
     top: 0;
     left: 50%;
-    /* Установите левый край элемента посередине */
     transform: translateX(-50%);
     height: 100px;
     width: 90vw;
@@ -255,7 +255,6 @@ header section p {
     ;
     place-items: center;
     gap: 20px;
-
 }
 
 .card-body img {
