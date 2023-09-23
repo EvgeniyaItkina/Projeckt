@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    background-color: #ccc;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    background-image: linear-gradient(85deg, #434343, #262626);
+    padding: 32px;
+    box-shadow: -16px 0 32px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.box img {
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box img:nth-child(n + 2) {
+    margin-left: -80px;
+}
+
+.box img:hover {
+    z-index: 1;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-box img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.big-picture-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.big-picture-2 {
+    position: relative;
+    top: 0;
+    left: -300px;
+    z-index: 2;
+}
+
+.big-picture-3 {
+    position: relative;
+    top: -450px;
+    left: -300px;
+    z-index: 2;
+}
+
+.form {
+    margin: 50px;
+    border: 3px groove #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form h1 {
+    display: block;
+    /* width: 60vw; */
+    font-size: 3em;
+    font-weight: 400;
+    color: #000;
+    text-shadow: 0px 0px 36px rgba(197, 67, 67, 0.8);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form h2 {
+    font-size: 0.8;
+    text-align: center;
+    color: chocolate;
+}
+
+.form-control {
+    display: grid;
+    color: #5e2b22;
+    font-size: 1em;
+    /* border: 1px solid #000; */
+    justify-items: center;
+}
+
+.input {
+    background: #F6F6F624;
+    border: 2px solid #5e2b22;
+    font-size: 1em;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

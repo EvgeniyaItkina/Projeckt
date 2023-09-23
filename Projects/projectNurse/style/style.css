@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 150px;
-    top: 15px;
-    overflow-y: hidden;
-    /* border-radius: 5%; */
-    /* margin: 10px; */
-}
-
 .container {
     padding: 20px;
     width: 90vw;
@@ -19,7 +11,7 @@ img {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 45% 55%;
-    /* grid-template-rows: 35% 30% 35%; */
+    grid-template-rows: 30% 37% 33%;
     grid-template-areas:
         'type1 type2'
         'type1 form'
@@ -61,7 +53,7 @@ img {
     grid-area: type1;
     background-image: url(../images/bgi.jpg);
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 20% 40%;
     background-size: auto;
 }
 
@@ -77,6 +69,7 @@ img {
 
 .type-surgery-1 ul li {
     display: table;
+    border-radius: 15px;
     padding: 0px 20px;
     margin-bottom: 20px;
     list-style: none;
@@ -84,9 +77,8 @@ img {
     line-height: 1.5;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    /* Для браузеров, поддерживающих префиксы */
     border: 1px solid #000;
-    background-color: rgb(65, 102, 67, 0.7);
+    background-color: rgb(65, 102, 67, 0.9);
     position: relative;
 }
 
@@ -101,8 +93,12 @@ img {
     white-space: nowrap;
     transform: scaleX(0);
     transform-origin: 0 0;
-    transition: transform 0.5s ease-in-out;
-    background-color: rgb(145, 97, 80);
+    transition: transform 1.5s ease-in-out;
+    border-radius: 15px;
+    background: linear-gradient(to right,
+            rgba(65, 102, 67, 0.7),
+            #79Ac78);
+
 }
 
 .type-surgery-1 ul li:hover span {
@@ -116,7 +112,7 @@ img {
 }
 
 .type-surgery-2 h2 {
-    margin: 0 0 10% 10px;
+    margin: 0 0 7% 10px;
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
@@ -136,11 +132,6 @@ img {
     100% {
         opacity: 1;
     }
-}
-
-.type-surgery-2 p {
-    font-size: 100%;
-    margin-bottom: 30px;
 }
 
 .one {
@@ -211,6 +202,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
 }
 
 .form h1 {
@@ -228,10 +220,6 @@ img {
     font-size: 0.8;
     text-align: center;
     color: chocolate;
-}
-
-.form {
-    margin: 10px;
 }
 
 .form-control {

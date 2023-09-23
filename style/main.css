@@ -7,7 +7,7 @@
 #scroll-to-top {
     position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 80px;
     z-index: 2;
 }
 
@@ -36,7 +36,7 @@ nav {
     border: 1px solid #ccc;
     border-top: 3px solid #1AE0EC;
     background-color: #fff;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav-icon img {
@@ -142,6 +142,7 @@ header section p {
 }
 
 .portfolio h2 {
+    margin-top: 50px;
     grid-area: title;
 }
 
@@ -151,6 +152,7 @@ header section p {
 
 .portfolio .bottomCV {
     grid-area: bottom;
+    margin-bottom: 50px;
 }
 
 .portfolio {
@@ -175,15 +177,26 @@ header section p {
 }
 
 .bottomCV {
-    background-color: rgb(163, 163, 197);
+    background-color: none;
     padding: 20px;
     border-radius: 15px;
     margin-right: 150px;
+    position: relative;
+    z-index: 1;
 }
 
-.bottomCV:hover {
+.bottomCV img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -16px;
+    left: -25px;
+    z-index: 0;
+}
+
+.bottomCV img:hover {
     transition: all 0.5s ease-in-out;
-    background: #bb5454;
+    filter: drop-shadow(10px 8px 3px #ff0055);
 }
 
 
