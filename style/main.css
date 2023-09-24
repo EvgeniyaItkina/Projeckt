@@ -254,6 +254,11 @@ header section p {
     background-size: 180px 220px;
 }
 
+.project8 {
+    grid-area: picture8;
+    background-image: url(../images/project8.jpg);
+}
+
 .project {
     padding: 100px 0;
     background-color: rgba(223, 223, 223, 0.5);
@@ -265,6 +270,7 @@ header section p {
         'picture1 picture2 picture3'
         'picture4 picture5 picture6'
         'picture7 picture8 picture9'
+        '. picture8 .'
     ;
     place-items: center;
     gap: 20px;

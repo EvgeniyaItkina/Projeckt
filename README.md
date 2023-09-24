@@ -44,6 +44,9 @@ Project HereNow showcases my versatility in web development. I've added differen
 
 On my website, you'll also find two additional projects: "Project Cat" and "Project Nurse," which were entirely designed and developed by me. These projects showcase my proficiency in web development and encompass various features, including user-triggered animations and keyframes-driven automatic animations. 
 
+### Project "Model"
+In modern web development, there are many scenarios where you need to create target pages where users can view larger images by hovering over certain elements. In this project, within a simple and stylish design, I provide a convenient and intuitive solution for adding new images while maintaining a cohesive aesthetic.
+
 ## What I've Achieved
 
 - Developed web applications from scratch.
