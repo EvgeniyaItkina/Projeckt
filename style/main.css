@@ -372,7 +372,14 @@ screen and (max-width:1200px) {
     }
 
     .bottomCV {
-        margin: auto;
+        margin: 5px 220px;
+        padding: 10px 10px;
+        background-color: #ccc;
+        border: 1px solid #000;
+    }
+
+    .bottomCV img {
+        display: none;
     }
 
     .project {

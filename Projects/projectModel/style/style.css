@@ -138,6 +138,7 @@ img[class*="big"] {
     font-size: 1em;
     font-size: 1.2em;
     margin-bottom: 10px;
+    width: 80%;
 }
 
 .button {
@@ -168,7 +169,6 @@ screen and (max-width:1110px) {
 
     .box img[class*="small"] {
         display: block;
-        width: auto;
         margin: 10px auto;
     }
 
@@ -185,6 +185,10 @@ screen and (max-width:1110px) {
     .small-picture-7:hover~.big-picture-7 {
         display: none;
 
+    }
+
+    .title {
+        font-size: 1.5em;
     }
 
     .box::hover~.title {
