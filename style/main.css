@@ -372,7 +372,7 @@ screen and (max-width:1200px) {
     }
 
     .bottomCV {
-        margin: 5px 220px;
+        margin: auto;
         padding: 10px 10px;
         background-color: #ccc;
         border: 1px solid #000;
